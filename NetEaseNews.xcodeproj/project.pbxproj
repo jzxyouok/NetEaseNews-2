@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BEAB5DFD4BAEDAD15F8325 /* libPods-NetEaseNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9DEB7B7B7B696B9A4A0F03 /* libPods-NetEaseNews.a */; };
+		A94D89661DB6F6DC004C3458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D89651DB6F6DC004C3458 /* main.m */; };
+		A94D89691DB6F6DC004C3458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D89681DB6F6DC004C3458 /* AppDelegate.m */; };
+		A94D896C1DB6F6DC004C3458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D896B1DB6F6DC004C3458 /* ViewController.m */; };
+		A94D896F1DB6F6DC004C3458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94D896D1DB6F6DC004C3458 /* Main.storyboard */; };
+		A94D89711DB6F6DC004C3458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94D89701DB6F6DC004C3458 /* Assets.xcassets */; };
+		A94D89741DB6F6DC004C3458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94D89721DB6F6DC004C3458 /* LaunchScreen.storyboard */; };
+		A94D897F1DB6F6DC004C3458 /* NetEaseNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D897E1DB6F6DC004C3458 /* NetEaseNewsTests.m */; };
+		A94D898A1DB6F6DC004C3458 /* NetEaseNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94D89891DB6F6DC004C3458 /* NetEaseNewsUITests.m */; };
+		A9AA8DE71DB75137009D5424 /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DE61DB75137009D5424 /* SplashView.m */; };
+		A9AA8DE91DB7514B009D5424 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9AA8DE81DB7514B009D5424 /* SplashView.xib */; };
+		A9AA8DED1DB774B0009D5424 /* HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DEC1DB774B0009D5424 /* HTTPSessionManager.m */; };
+		A9AA8DF01DB774BA009D5424 /* UIView+Vokie.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DEF1DB774BA009D5424 /* UIView+Vokie.m */; };
+		A9AA8DF31DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DF21DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		A9AA8DF61DB774EF009D5424 /* MBProgressHUD+EasyUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DF51DB774EF009D5424 /* MBProgressHUD+EasyUse.m */; };
+		A9AA8DF91DB7754C009D5424 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AA8DF81DB7754B009D5424 /* DatabaseManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94D897B1DB6F6DC004C3458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94D89591DB6F6DC004C3458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94D89601DB6F6DC004C3458;
+			remoteInfo = NetEaseNews;
+		};
+		A94D89861DB6F6DC004C3458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94D89591DB6F6DC004C3458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94D89601DB6F6DC004C3458;
+			remoteInfo = NetEaseNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E70885638AC8502E89401A /* Pods-NetEaseNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseNews/Pods-NetEaseNews.release.xcconfig"; sourceTree = "<group>"; };
+		7E9DEB7B7B7B696B9A4A0F03 /* libPods-NetEaseNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetEaseNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D89611DB6F6DC004C3458 /* NetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D89651DB6F6DC004C3458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94D89671DB6F6DC004C3458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A94D89681DB6F6DC004C3458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A94D896A1DB6F6DC004C3458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A94D896B1DB6F6DC004C3458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94D896E1DB6F6DC004C3458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94D89701DB6F6DC004C3458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94D89731DB6F6DC004C3458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94D89751DB6F6DC004C3458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94D897A1DB6F6DC004C3458 /* NetEaseNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D897E1DB6F6DC004C3458 /* NetEaseNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseNewsTests.m; sourceTree = "<group>"; };
+		A94D89801DB6F6DC004C3458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94D89851DB6F6DC004C3458 /* NetEaseNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D89891DB6F6DC004C3458 /* NetEaseNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseNewsUITests.m; sourceTree = "<group>"; };
+		A94D898B1DB6F6DC004C3458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AA8DE51DB75137009D5424 /* SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashView.h; sourceTree = "<group>"; };
+		A9AA8DE61DB75137009D5424 /* SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashView.m; sourceTree = "<group>"; };
+		A9AA8DE81DB7514B009D5424 /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		A9AA8DEA1DB7597A009D5424 /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		A9AA8DEB1DB774B0009D5424 /* HTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSessionManager.h; sourceTree = "<group>"; };
+		A9AA8DEC1DB774B0009D5424 /* HTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSessionManager.m; sourceTree = "<group>"; };
+		A9AA8DEE1DB774BA009D5424 /* UIView+Vokie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Vokie.h"; sourceTree = "<group>"; };
+		A9AA8DEF1DB774BA009D5424 /* UIView+Vokie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Vokie.m"; sourceTree = "<group>"; };
+		A9AA8DF11DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		A9AA8DF21DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		A9AA8DF41DB774EF009D5424 /* MBProgressHUD+EasyUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+EasyUse.h"; sourceTree = "<group>"; };
+		A9AA8DF51DB774EF009D5424 /* MBProgressHUD+EasyUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+EasyUse.m"; sourceTree = "<group>"; };
+		A9AA8DF71DB7754B009D5424 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		A9AA8DF81DB7754B009D5424 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		F463E632399662E011EE11B6 /* Pods-NetEaseNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseNews/Pods-NetEaseNews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94D895E1DB6F6DC004C3458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BEAB5DFD4BAEDAD15F8325 /* libPods-NetEaseNews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89771DB6F6DC004C3458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89821DB6F6DC004C3458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3415E0562A8F8AA974ACA4C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F463E632399662E011EE11B6 /* Pods-NetEaseNews.debug.xcconfig */,
+				37E70885638AC8502E89401A /* Pods-NetEaseNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D87FFB7FACE84581D116F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9DEB7B7B7B696B9A4A0F03 /* libPods-NetEaseNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94D89581DB6F6DC004C3458 = {
+			isa = PBXGroup;
+			children = (
+				A94D89631DB6F6DC004C3458 /* NetEaseNews */,
+				A94D897D1DB6F6DC004C3458 /* NetEaseNewsTests */,
+				A94D89881DB6F6DC004C3458 /* NetEaseNewsUITests */,
+				A94D89621DB6F6DC004C3458 /* Products */,
+				3415E0562A8F8AA974ACA4C7 /* Pods */,
+				6D87FFB7FACE84581D116F6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A94D89621DB6F6DC004C3458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94D89611DB6F6DC004C3458 /* NetEaseNews.app */,
+				A94D897A1DB6F6DC004C3458 /* NetEaseNewsTests.xctest */,
+				A94D89851DB6F6DC004C3458 /* NetEaseNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94D89631DB6F6DC004C3458 /* NetEaseNews */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA8DFD1DB776AD009D5424 /* UI */,
+				A9AA8DFC1DB77661009D5424 /* Database */,
+				A9AA8DFB1DB77622009D5424 /* Catagory */,
+				A9AA8DFA1DB77604009D5424 /* Network */,
+				A94D89641DB6F6DC004C3458 /* Supporting Files */,
+			);
+			path = NetEaseNews;
+			sourceTree = "<group>";
+		};
+		A94D89641DB6F6DC004C3458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA8DEA1DB7597A009D5424 /* CommonHeader.h */,
+				A94D89671DB6F6DC004C3458 /* AppDelegate.h */,
+				A94D89681DB6F6DC004C3458 /* AppDelegate.m */,
+				A94D89651DB6F6DC004C3458 /* main.m */,
+				A94D896D1DB6F6DC004C3458 /* Main.storyboard */,
+				A94D89701DB6F6DC004C3458 /* Assets.xcassets */,
+				A94D89721DB6F6DC004C3458 /* LaunchScreen.storyboard */,
+				A94D89751DB6F6DC004C3458 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94D897D1DB6F6DC004C3458 /* NetEaseNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94D897E1DB6F6DC004C3458 /* NetEaseNewsTests.m */,
+				A94D89801DB6F6DC004C3458 /* Info.plist */,
+			);
+			path = NetEaseNewsTests;
+			sourceTree = "<group>";
+		};
+		A94D89881DB6F6DC004C3458 /* NetEaseNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94D89891DB6F6DC004C3458 /* NetEaseNewsUITests.m */,
+				A94D898B1DB6F6DC004C3458 /* Info.plist */,
+			);
+			path = NetEaseNewsUITests;
+			sourceTree = "<group>";
+		};
+		A9AA8DFA1DB77604009D5424 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA8DEB1DB774B0009D5424 /* HTTPSessionManager.h */,
+				A9AA8DEC1DB774B0009D5424 /* HTTPSessionManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		A9AA8DFB1DB77622009D5424 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA8DEE1DB774BA009D5424 /* UIView+Vokie.h */,
+				A9AA8DEF1DB774BA009D5424 /* UIView+Vokie.m */,
+				A9AA8DF11DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				A9AA8DF21DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				A9AA8DF41DB774EF009D5424 /* MBProgressHUD+EasyUse.h */,
+				A9AA8DF51DB774EF009D5424 /* MBProgressHUD+EasyUse.m */,
+			);
+			name = Catagory;
+			sourceTree = "<group>";
+		};
+		A9AA8DFC1DB77661009D5424 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA8DF71DB7754B009D5424 /* DatabaseManager.h */,
+				A9AA8DF81DB7754B009D5424 /* DatabaseManager.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		A9AA8DFD1DB776AD009D5424 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A94D896A1DB6F6DC004C3458 /* ViewController.h */,
+				A94D896B1DB6F6DC004C3458 /* ViewController.m */,
+				A9AA8DE51DB75137009D5424 /* SplashView.h */,
+				A9AA8DE61DB75137009D5424 /* SplashView.m */,
+				A9AA8DE81DB7514B009D5424 /* SplashView.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94D89601DB6F6DC004C3458 /* NetEaseNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D898E1DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNews" */;
+			buildPhases = (
+				D83F3AFBF683F946A6186927 /* Check Pods Manifest.lock */,
+				A94D895D1DB6F6DC004C3458 /* Sources */,
+				A94D895E1DB6F6DC004C3458 /* Frameworks */,
+				A94D895F1DB6F6DC004C3458 /* Resources */,
+				3BD9108756EBE784948771ED /* Embed Pods Frameworks */,
+				CC7D8D996493547B4733DBEB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEaseNews;
+			productName = NetEaseNews;
+			productReference = A94D89611DB6F6DC004C3458 /* NetEaseNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94D89791DB6F6DC004C3458 /* NetEaseNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D89911DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNewsTests" */;
+			buildPhases = (
+				A94D89761DB6F6DC004C3458 /* Sources */,
+				A94D89771DB6F6DC004C3458 /* Frameworks */,
+				A94D89781DB6F6DC004C3458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94D897C1DB6F6DC004C3458 /* PBXTargetDependency */,
+			);
+			name = NetEaseNewsTests;
+			productName = NetEaseNewsTests;
+			productReference = A94D897A1DB6F6DC004C3458 /* NetEaseNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94D89841DB6F6DC004C3458 /* NetEaseNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D89941DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNewsUITests" */;
+			buildPhases = (
+				A94D89811DB6F6DC004C3458 /* Sources */,
+				A94D89821DB6F6DC004C3458 /* Frameworks */,
+				A94D89831DB6F6DC004C3458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94D89871DB6F6DC004C3458 /* PBXTargetDependency */,
+			);
+			name = NetEaseNewsUITests;
+			productName = NetEaseNewsUITests;
+			productReference = A94D89851DB6F6DC004C3458 /* NetEaseNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94D89591DB6F6DC004C3458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Vokie;
+				TargetAttributes = {
+					A94D89601DB6F6DC004C3458 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ASNS7YDT97;
+					};
+					A94D89791DB6F6DC004C3458 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A94D89601DB6F6DC004C3458;
+					};
+					A94D89841DB6F6DC004C3458 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A94D89601DB6F6DC004C3458;
+					};
+				};
+			};
+			buildConfigurationList = A94D895C1DB6F6DC004C3458 /* Build configuration list for PBXProject "NetEaseNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94D89581DB6F6DC004C3458;
+			productRefGroup = A94D89621DB6F6DC004C3458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94D89601DB6F6DC004C3458 /* NetEaseNews */,
+				A94D89791DB6F6DC004C3458 /* NetEaseNewsTests */,
+				A94D89841DB6F6DC004C3458 /* NetEaseNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94D895F1DB6F6DC004C3458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D89741DB6F6DC004C3458 /* LaunchScreen.storyboard in Resources */,
+				A9AA8DE91DB7514B009D5424 /* SplashView.xib in Resources */,
+				A94D89711DB6F6DC004C3458 /* Assets.xcassets in Resources */,
+				A94D896F1DB6F6DC004C3458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89781DB6F6DC004C3458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89831DB6F6DC004C3458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD9108756EBE784948771ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetEaseNews/Pods-NetEaseNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7D8D996493547B4733DBEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetEaseNews/Pods-NetEaseNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83F3AFBF683F946A6186927 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94D895D1DB6F6DC004C3458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AA8DF31DB774D9009D5424 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				A9AA8DF91DB7754C009D5424 /* DatabaseManager.m in Sources */,
+				A9AA8DF61DB774EF009D5424 /* MBProgressHUD+EasyUse.m in Sources */,
+				A9AA8DED1DB774B0009D5424 /* HTTPSessionManager.m in Sources */,
+				A9AA8DF01DB774BA009D5424 /* UIView+Vokie.m in Sources */,
+				A94D896C1DB6F6DC004C3458 /* ViewController.m in Sources */,
+				A9AA8DE71DB75137009D5424 /* SplashView.m in Sources */,
+				A94D89691DB6F6DC004C3458 /* AppDelegate.m in Sources */,
+				A94D89661DB6F6DC004C3458 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89761DB6F6DC004C3458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D897F1DB6F6DC004C3458 /* NetEaseNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D89811DB6F6DC004C3458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D898A1DB6F6DC004C3458 /* NetEaseNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94D897C1DB6F6DC004C3458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94D89601DB6F6DC004C3458 /* NetEaseNews */;
+			targetProxy = A94D897B1DB6F6DC004C3458 /* PBXContainerItemProxy */;
+		};
+		A94D89871DB6F6DC004C3458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94D89601DB6F6DC004C3458 /* NetEaseNews */;
+			targetProxy = A94D89861DB6F6DC004C3458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94D896D1DB6F6DC004C3458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94D896E1DB6F6DC004C3458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94D89721DB6F6DC004C3458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94D89731DB6F6DC004C3458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94D898C1DB6F6DC004C3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94D898D1DB6F6DC004C3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94D898F1DB6F6DC004C3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F463E632399662E011EE11B6 /* Pods-NetEaseNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NetEaseNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A94D89901DB6F6DC004C3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E70885638AC8502E89401A /* Pods-NetEaseNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NetEaseNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A94D89921DB6F6DC004C3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseNews.app/NetEaseNews";
+			};
+			name = Debug;
+		};
+		A94D89931DB6F6DC004C3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEaseNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseNews.app/NetEaseNews";
+			};
+			name = Release;
+		};
+		A94D89951DB6F6DC004C3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseNews;
+			};
+			name = Debug;
+		};
+		A94D89961DB6F6DC004C3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEaseNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vokie.NetEaseNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEaseNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94D895C1DB6F6DC004C3458 /* Build configuration list for PBXProject "NetEaseNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D898C1DB6F6DC004C3458 /* Debug */,
+				A94D898D1DB6F6DC004C3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D898E1DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D898F1DB6F6DC004C3458 /* Debug */,
+				A94D89901DB6F6DC004C3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D89911DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D89921DB6F6DC004C3458 /* Debug */,
+				A94D89931DB6F6DC004C3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D89941DB6F6DC004C3458 /* Build configuration list for PBXNativeTarget "NetEaseNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D89951DB6F6DC004C3458 /* Debug */,
+				A94D89961DB6F6DC004C3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94D89591DB6F6DC004C3458 /* Project object */;
+}
